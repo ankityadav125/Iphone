@@ -1,0 +1,448 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+nav{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color: rgb(152, 95, 152);
+    transition: .4s;
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 10px; 
+    color: black;
+}
+
+.menu a:first-child{
+    background-color: rgb(135, 56, 135);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: rgb(135, 56, 135);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+nav button{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: transparent;
+    transition: .4s;
+}
+
+nav button:hover{
+    color: white;
+    background-color: rgb(135, 56, 135);
+    cursor: pointer;
+}
+.container{
+    height: 70%;
+    width: 100%;
+    background-color: rgb(135, 56, 135);
+    display: flex;
+}
+
+.left{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    padding: 140px;
+}
+
+.text h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.text p{
+    margin: 10px 0px;
+    color: grey;
+}
+
+.text button{
+    margin: 40px 0px;
+    font-size: 15px;
+    padding: 5px;
+}
+.btn button:first-child{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+
+.btn button:first-child:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btn button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn button:nth-child(2):hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.right{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+
+.right img{
+    height: 500px;
+}
+
+.right img:hover{
+    transform: scale(.4);
+    transition: 1s;
+    cursor: pointer;
+}
+.about{
+    height: 30%;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+
+}
+.a-text{
+    max-width: 500;
+    text-align: center;
+    padding: 35px;
+}
+
+.a-text h1{
+    margin-bottom: 10px;
+}
+.a-text p{
+    margin: 15px;
+    color: grey;
+}
+
+.product{
+    height: 70%;
+     width: 100%;
+}
+.p-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(221, 208, 208);
+    position: relative;
+    display: flex;
+}
+
+.p-left{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.p-left img{
+    height: 500px;
+}
+
+.p-left img:hover{
+    transform: scale(.5);
+    transition: 1s;
+    cursor: pointer;
+}
+.p-right{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.p-text{
+    padding: 100px;
+    max-width: 300;
+}
+
+.p-text h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.p-text p{
+    margin: 20px 0px;
+}
+
+.p-text button{ 
+    margin: 30px 0px;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.p-btn button:first-child{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+
+.p-btn button:first-child:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.p-btn button:nth-child(2){
+    background-color: transparent;
+    color: black;
+    border: 1p solid black;
+}
+
+.p-btn button:nth-child(2):hover{
+    background-color: white;
+    color: black;
+    border: 1p solid black;
+    cursor: pointer;
+}
+.image{
+    height: 40%;
+    width: 100%;
+     background-image: url(https://images.unsplash.com/photo-1480694313141-fce5e697ee25?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.i-text{
+    max-width: 150;
+    padding: 40px;
+}
+
+.i-text h1{
+    margin-top: 15px;
+}
+
+.i-text p{
+    margin: 15px;
+    color: white;
+}
+
+.i-text button{
+    margin: 10px;
+    font-size: 15px;
+    padding: 5px;
+}
+.img-btn button:first-child{
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.img-btn button:first-child:hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.img-btn button:nth-child(2){
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+.img-btn button:nth-child(2):hover{
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    cursor: pointer;
+}
+.deliver{
+    height: 70%;
+    width: 100%;
+}
+
+.d-container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(221, 208, 208);
+    position: relative;
+    display: flex;
+}
+.d-left{
+    height: 100%;
+    width: 50%;
+
+}
+
+.d-text{
+    margin: 110px;
+}
+.d-text h1{
+    font-size: 40px;
+}
+
+.d-text p{
+    margin: 15px 0px;
+    line-height: 25px;
+}
+
+.d-text button{
+    margin: 20px 0;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.d-btn button:first-child{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.d-btn button:first-child:hover{
+    background-color: transparent;
+    color: black;
+    border: 2px solid white;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.d-btn button:nth-child(2){
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+}
+
+.d-btn button:nth-child(2):hover{
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    transition: .4s;
+    cursor: pointer;
+}
+.d-right{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+}
+
+.d-right img{
+    height: 100%;
+    margin-top: 30px;
+}
+
+.d-right img:hover{
+    transform: scale(.5);
+    transition: 1s ease;
+    cursor: pointer;
+}
+.stay{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background-color: white;
+}
+.s-text{
+    padding-top: 60px;
+}
+
+.s-text h4{
+    margin: 25px 0px;
+}
+
+.s-text input{
+    padding: 4px 90px;
+}
+.s-text button{
+    padding: 4px 40px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.s-text button:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: grey;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.s-text i{
+    font-size: 25px;
+    margin: 5px;
+}
+
+.s-text i:hover{
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 5px;
+    color: rgb(219, 56, 56);
+    transition: .4s;
+    cursor: pointer;
+}
+footer{
+    height: 40%;
+    width: 100%;
+    background-color: rgba(0, 0,0, 0.8);
+   color: white;
+    position: relative;
+    line-height: 30px;
+}
+
+footer p{
+    text-align:center ;
+    color: white;
+}
+.f-container{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    list-style: none;
+}
+
+
